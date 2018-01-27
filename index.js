@@ -43,7 +43,7 @@ module.exports = class Batch extends EventEmitter {
       total: this._total,
       running: this._running,
       pending: this._jobs.length,
-      data: this._data
+      data: data
     });
 
     if (this._jobs.length) {

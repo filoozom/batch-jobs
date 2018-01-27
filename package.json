@@ -1,6 +1,6 @@
 {
   "name": "batch-jobs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Batch jobs in NodeJS",
   "devDependencies": {
     "eslint": "^4.16.0",
