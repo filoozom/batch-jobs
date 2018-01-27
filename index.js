@@ -32,7 +32,7 @@ module.exports = class Batch extends EventEmitter {
 
   _next() {
     this._running++;
-    setTimeout(this._jobs.pop().bind(null, this._callback.bind(this)));
+    setTimeout(this._jobs.shift().bind(null, this._callback.bind(this)));
   }
 
   _callback(data) {
